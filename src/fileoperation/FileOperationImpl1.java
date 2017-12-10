@@ -37,7 +37,7 @@ public class FileOperationImpl1 implements FileOperations {
 
         for (String s: content
              ) {
-            rezultat = rezultat+s+System.getProperty("line.separator");
+            rezultat = rezultat+s + " " +System.getProperty("line.separator");
         }
 
         return rezultat;
