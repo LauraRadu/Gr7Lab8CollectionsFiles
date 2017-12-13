@@ -1,0 +1,3 @@
+ionel, 5432
+elena, 000
+ionnou, 35654321

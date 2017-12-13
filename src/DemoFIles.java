@@ -1,3 +1,6 @@
+//TEME 1-8
+
+
 import fileoperation.FileOperationImpl1;
 import fileoperation.FileOperations;
 
@@ -205,7 +208,7 @@ public class DemoFIles {
         }
 
         //apel metoda de sortare a hashmapului dupa nr de aparitii al cuvintelor si printarea lor
-        Map<String, Integer> result =MostFrequentWordClass.sortByValue(words);
+        Map<String, Integer> result = MostFrequentWordClass.sortByValue(words);
         System.out.println(result);
     }
 

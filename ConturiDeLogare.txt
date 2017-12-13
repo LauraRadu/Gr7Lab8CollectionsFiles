@@ -1,0 +1,3 @@
+ionel, password1
+maria, password2
+crina, password3

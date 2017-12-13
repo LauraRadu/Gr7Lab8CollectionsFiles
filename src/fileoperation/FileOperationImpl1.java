@@ -75,4 +75,15 @@ public class FileOperationImpl1 implements FileOperations {
         }
 
     }
+
+    public void writeFileMakeItEmpty(String fileName, String st) {
+        try {
+            Path p = Paths.get(".", fileName);
+            if (Files.exists(p)) {
+                Files.write(p, st.getBytes());
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 }

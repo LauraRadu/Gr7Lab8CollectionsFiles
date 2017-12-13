@@ -7,7 +7,7 @@ public class AgendaMain {
 
     private void listAll() {
         for (Person p: agenda
-             ) {
+                ) {
 
             System.out.println(p.getName());
             System.out.println(p.getPhone());
